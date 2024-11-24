@@ -8,4 +8,4 @@ xgboost
 #catboost
 lightgbm
 dill
-# -e . # To trigger the setup.py
+-e . # To trigger the setup.py

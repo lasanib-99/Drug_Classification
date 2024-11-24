@@ -21,5 +21,8 @@ setup(
     author = 'Lasani',
     author_email = 'lasani@mihcm.com',
     packages = find_packages(),
-    install_requires = get_requirements('requirements.txt')
+    install_requires = get_requirements('requirements.txt'),
+    include_package_data=True,
+    description="Prediction of Diabetes Existenct of Patients",
+    url="https://github.com/lasani-MiHCM/Diabetes_Existence"
 )
