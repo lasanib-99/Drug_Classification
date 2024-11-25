@@ -12,17 +12,17 @@ def get_requirements(file_path:str) -> List[str]:
         requirements = [req.replace("\n", "") for req in requirements] ## Lines are read without unwanted space (new line in this case)
         
         if HYPHEN_E_DOT in requirements:
-            requirements.remove(HYPHEN_E_DOT)  ## The '-e .' part should be ignored
+            requirements.remove(HYPHEN_E_DOT)  ## The '-e .' part to be ignored
             return requirements
         
 setup(
-    name = 'Diabetes_Existence',
+    name = 'Drug_Classification',
     version = '0.0.1',
     author = 'Lasani',
     author_email = 'lasani@mihcm.com',
     packages = find_packages(),
     install_requires = get_requirements('requirements.txt'),
     include_package_data=True,
-    description="Prediction of Diabetes Existenct of Patients",
-    url="https://github.com/lasani-MiHCM/Diabetes_Existence"
+    description="Drug Classification Model",
+    url="https://github.com/lasani-MiHCM/Drug_Classification"
 )
