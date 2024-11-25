@@ -4,6 +4,8 @@ matplotlib
 seaborn
 scikit-learn
 xgboost
-#catboost
+catboost
+lightGBM
+imblearn
 dill
-# -e . # To trigger the setup.py
+-e . # To trigger the setup.py
