@@ -122,13 +122,15 @@ celerybeat.pid
 *.sage.py
 
 # Environments
+artifacts/
+catboost_info/
 .env
-.venv_dbts
+.venv_drug
 env/
-venv_dbts/
+venv_drug/
 ENV/
 env.bak/
-venv_dbts.bak/
+venv_drug.bak/
 
 # Spyder project settings
 .spyderproject
